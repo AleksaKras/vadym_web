@@ -1,0 +1,24 @@
+h1,h2,h3,h4{
+  font-family:'Montserrat';
+  font-weight:600;
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+  line-height:1.15;
+}
+.eyebrow{
+  font-family:'Space Mono',monospace;
+  font-size:13px;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+
+
+      <p class="hero-sub">
+        🎯Глибинна психологія самоефективності людини
+жодної магії або езотерики — тільки науковий підхід та дієва методологія
+</p>
+    <div class="hero-chips">
+      <span class="chip">6 відео уроків</span>
+      <span class="chip">12 практичних інструментів</span>
+      </div>
