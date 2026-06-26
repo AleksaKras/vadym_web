@@ -297,9 +297,11 @@ section{
   .hero-h1 .accent-line{font-size:clamp(55px,13vw,80px);}
   .hero-eyebrow{margin-bottom:16px;}
   .hero-divider{margin:18px 0;}
-  .hero-sub{font-size:20px;margin-bottom:24px;}
+  .hero-sub{font-size:22px;margin-bottom:24px;}
   .hero-chips{margin-bottom:7px;gap:8px;}
   .chip{font-size:14px;padding:6px 10px;}
+
+  .hero-cta a{font-size: 18px; font-family: 'Gilroy-bold'; letter-spacing: 0.05em;}
 }
 
 
