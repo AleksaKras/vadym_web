@@ -24,9 +24,7 @@ body{
   padding:0 24px;
 }
 
-.bonus {
-  color:var(--gold);
-}
+
 .geologica {
   font-family: "Geologica", sans-serif;
   font-optical-sizing: auto;
@@ -84,7 +82,6 @@ a{color:inherit;text-decoration:none;}
 }
 .divider.center{margin:18px auto 24px;}
 section{
-  padding:20px 0;
   position:relative;
 }
 
@@ -152,7 +149,7 @@ section{
 
 .hero-h1{
   font-weight:300;
-  font-size:clamp(45px,5.5vw,60px);
+  font-size:clamp(45px,5.5vw,67px);
   text-transform:uppercase;
   letter-spacing:.04em;
   line-height:1.08;
@@ -163,7 +160,7 @@ section{
   display:block;
   font-weight:500;
   color:var(--gold);
-  font-size:clamp(64px,7vw,80px);
+  font-size:clamp(64px,7vw,96px);
   letter-spacing:.02em;
 }
 .hero-h1 .light-line{
@@ -190,7 +187,7 @@ section{
   font-size:23px;
   color:rgba(237, 234, 227, 0.932);
   max-width:550px;
-  line-height:1.4;
+  line-height:1.2;
   margin-bottom:20px;
   font-weight:170;
 }
@@ -321,23 +318,19 @@ section{
   .hero-photo-col img{
     object-position:center 18%;
   }
-  .hero-photo-col::after{
-    background:linear-gradient(180deg, transparent 50%, var(--bg) 100%);
-  }
-  .hero-photo-col::before{
-    background:linear-gradient(180deg, var(--bg) 0%, transparent 10%);
-  }
+
+
   .hero-text-col{
     padding:24px 24px 60px;
   }
 
 
   .hero-text-col::before{display:none;}
-  .hero-h1{font-size:clamp(38px,10vw,56px);}
-  .hero-h1 .accent-line{font-size:clamp(46px,13vw,68px);}
+  .hero-h1{font-size:clamp(48px,10vw,67px);}
+  .hero-h1 .accent-line{font-size:clamp(55px,13vw,72px);}
   .hero-eyebrow{margin-bottom:16px;}
   .hero-divider{margin:18px 0;}
-  .hero-sub{font-size:15px;margin-bottom:24px;}
+  .hero-sub{font-size:18px;margin-bottom:24px;}
   .hero-chips{margin-bottom:7px;gap:8px;}
   .chip{font-size:14px;padding:6px 10px;}
 }
@@ -376,7 +369,7 @@ section{
   bottom: 0;
   left: 0;
   /* Градієнт від прозорого до темно-сірого/чорного */
-  background: linear-gradient(to right, transparent 85%, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(to right, transparent 25%, rgba(0, 0, 0, 0.8));
   pointer-events: none; /* Щоб шар не заважав клікати по фото */
 }
 .about-photo img{width:100%;height:100%;object-fit:cover;display:block;}
@@ -779,7 +772,6 @@ footer{
 
 
 footer .logo{
-  font-family:'Oswald',sans-serif;
   font-size:20px;
   letter-spacing:.2em;
   color:var(--gold);
@@ -793,7 +785,6 @@ footer p{font-size:13px;color:var(--grey);}
   .hero-photo{order:-1;max-width:340px;margin:0 auto;}
   .pain-grid,.testi-grid{grid-template-columns:1fr;}
   .about-stats{grid-template-columns:1fr 1fr;}
-  section{padding:70px 0;}
   .module{grid-template-columns:1fr;gap:10px;}
   .price-card{padding:40px 26px;}
 }
