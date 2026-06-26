@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-italic';
   src: url('fonts/Gilroy-BoldItalic.woff2') format('woff2'),
        url('fonts/Gilroy-BoldItalic.woff') format('woff');
   font-weight: 600;
@@ -50,6 +50,7 @@ body{
   font-weight:500;
   line-height:1.6;
   overflow-x:hidden;
+  justify-content:center;
 }
 .container{
   max-width:1140px;
@@ -58,6 +59,7 @@ body{
 }
 .bonus {
   font-weight: 300;
+  font-size: 20px;
 }
 
 
@@ -154,10 +156,12 @@ section{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  padding:60px 60px 60px 40px;
+  padding:30px 40px 40px 40px;
   position:relative;
   z-index:2;
 }
+
+
 .hero-text-col::before{
   content:'';
   position:absolute;
@@ -215,7 +219,7 @@ section{
   opacity:.7;
 }
 .hero-sub{
-  font-size:23px;
+  font-size:25px;
   color:rgba(237, 234, 227, 0.932);
   max-width:550px;
   line-height:1.2;
@@ -286,9 +290,6 @@ section{
   }
 
 
-  .hero-text-col{
-    padding:24px 24px 60px;
-  }
 
 
   .hero-text-col::before{display:none;}
@@ -296,7 +297,7 @@ section{
   .hero-h1 .accent-line{font-size:clamp(55px,13vw,80px);}
   .hero-eyebrow{margin-bottom:16px;}
   .hero-divider{margin:18px 0;}
-  .hero-sub{font-size:18px;margin-bottom:24px;}
+  .hero-sub{font-size:20px;margin-bottom:24px;}
   .hero-chips{margin-bottom:7px;gap:8px;}
   .chip{font-size:14px;padding:6px 10px;}
 }

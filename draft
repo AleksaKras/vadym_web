@@ -55,3 +55,7 @@ h1,h2,h3,h4{
     "CRSV" 0,
     "SHRP" 0;
 }
+
+  .hero-text-col{
+    padding:40px 24px 60px 24px;
+  }
