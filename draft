@@ -22,3 +22,36 @@ h1,h2,h3,h4{
       <span class="chip">6 відео уроків</span>
       <span class="chip">12 практичних інструментів</span>
       </div>
+
+
+
+.chip{
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--gold);
+  border:1px solid rgba(201,162,39,.3);
+  padding:7px 14px;
+  border-radius:2px;
+  background:rgba(201,162,39,.05);
+}
+.chip-bonus {
+  background: linear-gradient(90deg, #d0380a, #895740, #E84B1C);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 2s linear infinite alternate;
+  white-space: nowrap;
+}
+
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
