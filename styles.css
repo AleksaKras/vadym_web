@@ -312,6 +312,10 @@ font-size: 22px; font-family: 'Gilroy-bold';
 @media(max-width:820px){
     .mobile-br { display: block; }
 
+    ul li {
+      font-size: 15px;
+    }
+
   .hero{
     grid-template-columns:1fr;
     grid-template-rows:auto auto;
@@ -340,7 +344,7 @@ font-size: 22px; font-family: 'Gilroy-bold';
   .hero-chips{margin-bottom:7px;gap:8px;}
   .chip{font-size:14px;padding:6px 10px;}
 
-  .hero-cta a{font-size: 18px; font-family: 'Gilroy-bold'; letter-spacing: 0.05em;}
+  .hero-cta a{font-size: 18px; font-family: 'Gilroy-bold'; margin-left: 5%; letter-spacing: 0.05em;}
 }
 
 
