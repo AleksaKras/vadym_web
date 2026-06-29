@@ -134,6 +134,7 @@ section{
 
 
 
+
 .bonus-card {
   position: relative;
   background: #0f0f0f;
@@ -313,6 +314,19 @@ font-size: 22px; font-family: 'Gilroy-bold';
 
 @media(max-width:820px){
     .mobile-br { display: block; }
+
+
+    .bonus-card1 {
+      font-size: 14px;
+  position: relative;
+  background: #0f0f0f;
+  border: 1px solid #c9a227;
+  border-radius: 8px;
+  padding: 20px 24px;
+  overflow: visible;
+    width: fit-content;
+
+}
 
     ul li {
       font-size: 18px;
