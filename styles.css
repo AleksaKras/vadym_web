@@ -273,7 +273,17 @@ section{
 }
 
 
+.bonus-card1 {
+  font-size: 22px;
+  position: relative;
+  background: #0f0f0f;
+  border: 1px solid #c9a227;
+  border-radius: 8px;
+  padding: 20px 24px;
+  overflow: visible;
+    width: fit-content;
 
+}
 
 
 
@@ -454,6 +464,7 @@ margin-right: auto;
 }
 
 .acc-q {
+  font-family: 'Gilroy';
   width: 100%;
   background: none;
   border: none;
@@ -481,6 +492,7 @@ margin-right: auto;
 }
 
 .acc-a {
+  font-family: 'Montserrat';
   max-height: 0;
   overflow: hidden;
   transition: max-height .35s ease, padding .35s ease;
