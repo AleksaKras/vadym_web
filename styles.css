@@ -51,6 +51,9 @@
 
 *{margin:0;padding:0;box-sizing:border-box;}
 
+ul li::marker {
+  color: var(--gold);
+}
 
 html{scroll-behavior:smooth;}
 body{
@@ -76,7 +79,7 @@ body{
 
 
 h1, h2 {
-  font-family: 'Gilroy-italic';
+  font-family: 'Gilroy-Bold';
   font-optical-sizing: auto;
   font-weight: 700;
   line-height: normal;
@@ -208,7 +211,6 @@ section{
 .hero-eyebrow{
   font-size:17px;
   letter-spacing:.2em;
-  text-transform:uppercase;
   color:var(--gold);
   margin-bottom:28px;
   line-height: 1.2em;
@@ -220,7 +222,6 @@ section{
 .hero-h1{
   font-weight:300;
   font-size:clamp(45px,5.5vw,70px);
-  text-transform:uppercase;
   letter-spacing:.04em;
   line-height:1.08;
   margin-bottom:0;
@@ -244,7 +245,6 @@ section{
   font-size:15px;
   font-weight:200;
   letter-spacing:.18em;
-  text-transform:uppercase;
   color:var(--grey);
 }
 .hero-divider{
@@ -389,7 +389,7 @@ font-size: 22px; font-family: 'Gilroy-bold';
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 36px;
-  max-width: 50%;
+  max-width: 80%;
   margin-left: auto;
 margin-right: auto;
 }
@@ -485,7 +485,7 @@ margin-right: auto;
   display: grid;
   gap: 16px;
   margin-top: 36px;
-  max-width: 70%;
+  max-width: 80%;
   margin-left: auto;
 margin-right: auto;
 
