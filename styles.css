@@ -328,6 +328,18 @@ font-size: 22px; font-family: 'Gilroy-bold';
   font-size: 10px;
 }
 
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+    .about .container {
+    padding: 0 4px;
+  }
+
+.light-line {
+  line-height:1
+}
 
     .bonus-card1 { 
       font-size: 8px;
@@ -526,6 +538,10 @@ margin-right: auto;
 margin-right: auto;
 
   }
+
+  .pain-card{ 
+    padding: 7px ;
+  }
   .about-card p {
   font-family:'Gilroy';
   font-size: 17px;
@@ -533,7 +549,12 @@ margin-right: auto;
   color: var(--cream);
   line-height: 1.6;
 }
+.pain-card .icon{
+  color:var(--gold);
+  font-size:20px;
+  margin-bottom:8px;
 
+}
 .about  {
     padding: 0 20px;
 
@@ -614,7 +635,7 @@ margin-right: auto;
   background:var(--bg-soft);
   border:1px solid var(--line);
   border-radius:4px;
-  padding:36px 30px;
+  padding:16px 10px;
   position:relative;
   transition:border-color .25s ease, transform .25s ease;
 }
@@ -627,7 +648,7 @@ margin-right: auto;
   font-size:25px;
   font-weight: 400;
   letter-spacing:.2em;
-  margin-bottom:18px;
+  margin-bottom:8px;
   display:block;
 }
 .pain-card p{

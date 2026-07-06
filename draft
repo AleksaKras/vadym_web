@@ -74,3 +74,26 @@ text from 1 rozdil:
     </p>
        <p class="hero-sub">
         🎯Глибинна психологія самоефективності людини</p>
+
+
+
+
+  plazhky after 2 block 
+
+  <section style="margin-bottom: 50px;">
+  
+      <div class="about-cards">
+        <div class="about-card">
+          <span class="about-card-icon">🎓</span>
+          <p>Аспірант (PhD) — досліджую психологію самоефективності на академічному рівні</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-icon">💼</span>
+          <p>Практик з 2017 року — сотні консультацій, тренінгів та реальних кейсів</p>
+        </div>
+        <div class="about-card">
+          <span class="about-card-icon">🛠</span>
+          <p>Авторський підхід — жодного «успішного успіху», тільки доказова наука та дієві техніки</p>
+        </div>
+      </div>
+</section>
