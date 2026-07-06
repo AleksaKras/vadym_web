@@ -329,13 +329,13 @@ font-size: 22px; font-family: 'Gilroy-bold';
 }
 
 
-    .bonus-card1 {
-      font-size: 10px;
+    .bonus-card1 { 
+      font-size: 8px;
   position: relative;
   background: #0f0f0f;
   border: 1px solid #c9a227;
   border-radius: 8px;
-  padding: 20px 24px;
+  padding: 5px 7px;
   overflow: visible;
     width: fit-content;
 
@@ -379,10 +379,10 @@ font-size: 22px; font-family: 'Gilroy-bold';
 
 /* ===== ABOUT ===== */
 .about{
-  background:var(--bg-gray);
+  background:var(--bg);
   border-top:1px solid var(--line);
   border-bottom:1px solid var(--line);
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 5%;
   
 }
@@ -393,7 +393,7 @@ font-size: 22px; font-family: 'Gilroy-bold';
 .about-grid{
   display:grid;
   grid-template-columns:.85fr 1.15fr;
-  gap:70px;
+  gap:20px;
   align-items:center;
 }
 .about-photo{
@@ -495,7 +495,8 @@ margin-right: auto;
 }
 
 .acc-a {
-  font-family: 'Montserrat';
+  font-family: 'Gilroy';
+  font-weight: 100;
   max-height: 0;
   overflow: hidden;
   transition: max-height .35s ease, padding .35s ease;
