@@ -702,6 +702,10 @@ margin-right: auto;
   letter-spacing:.1em;
   padding-top:2px;
 }
+
+.modules li {
+  color: var(--bg);
+}
 .module h3{
   font-size:22px;
   margin-bottom:10px;
