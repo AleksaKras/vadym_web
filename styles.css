@@ -683,7 +683,7 @@ margin-right: auto;
   border-top:1px solid var(--line);
   border-radius: 20px;
   margin-top: 10px;
-  background-color: var(--gold-bright);
+  background:linear-gradient(135deg,var(--gold-bright),var(--gold));
   color: var(--bg);
   padding:14px 10px;
   display:grid;
@@ -698,7 +698,7 @@ margin-right: auto;
 .module .mnum{
   margin-top: 5px;
   color: var(--bg);
-  font-size:15px;
+  font-size:25px;
   letter-spacing:.1em;
   padding-top:2px;
 }
