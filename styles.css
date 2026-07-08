@@ -1,10 +1,10 @@
 :root{
-  --bg:#0d0d0d;
-  --bg-gray:#232320;
+  --bg:#212121;
+  --bg-gray:#2C3E50;
   --bg-soft:#1e1e1c;
   --gold:#c9a227;
   --gold-bright:#e0bd4a;
-  --cream:#edeae3;
+  --cream:#E5E5E5;  
   --grey:#9b968c;
   --line:#2a2a2a;
 }
@@ -182,8 +182,8 @@ section{
 .hero-photo-col::after{
   content:'';
   position:absolute;inset:0;
-  background:linear-gradient(90deg, transparent 65%, var(--bg) 100%),
-             linear-gradient(0deg, var(--bg) 0%, transparent 20%);
+  background:linear-gradient(90deg, transparent 100%, var(--bg) 100%),
+             linear-gradient(0deg, var(--bg) 0%, transparent 3%);
 }
 .hero-photo-col::before{
   content:'';
