@@ -111,3 +111,16 @@ text from 1 rozdil:
   gap:20px;
   margin-bottom:60px;
 }
+
+
+Facts 
+  <div class="acc-item">
+    <button class="acc-q">Факт 3 — Ідея курсу <span class="plus">+</span></button>
+    <div class="acc-a"><p>Ідея цього курсу виникла кілька років тому, але повністю втілилася на початку 2026 року. У цей продукт я заклав знання та досвід, які по крихтах збирав протягом останніх 10 років.</p></div>
+  </div>
+
+    <div class="acc-item">
+    <button class="acc-q">Факт 4 — Авторський підхід  <span class="plus">+</span></button>
+    <div class="acc-a"><p>  Авторський підхід — жодного «успішного успіху», тільки доказова наука та дієві техніки
+</p></div>
+  </div>
