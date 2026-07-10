@@ -135,3 +135,27 @@ Facts
     width: fit-content;
 
 }
+
+
+price 
+
+<section class="pricing" id="pricing">
+  <div class="container">
+        <div class="forwhom-head">
+<h2 class="forwhom-title" style="text-align: center; font-weight: 100;"><span>вартiсть</span></h2>
+    </div>
+    <div class="price-card">
+      <span class="price-old">3500 ₴</span>
+      <div class="price-amount">2500 ₴</div>
+      <div style="color:var(--grey);font-size:14px;">за участь, 20–21 лютого</div>
+      <ul class="price-features">
+        <li>2 дні живого інтенсиву онлайн</li>
+        <li>Авторські психологічні техніки</li>
+        <li>Робочий зошит учасника</li>
+        <li>Запис тренінгу — назавжди</li>
+        <li>Закритий чат підтримки</li>
+      </ul>
+      <a href="#contact" class="btn">Забронювати місце</a>
+    </div>
+  </div>
+</section>
