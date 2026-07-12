@@ -386,6 +386,23 @@ margin-right: auto;
     padding-left: 0;
     padding-right: 0;
   }
+  .speech {
+      
+    padding-left: 0;
+    padding-right: 0;
+    background:var(--bg);
+
+
+  }
+
+  .speech p {
+    font-size: clamp( 16px, 12vw, 20px);
+    font-family: Gilroy;
+    color: var(--grey);
+    font-weight: 400;
+    padding-top: 5%;
+  }
+  }
 
     .about .container {
     padding: 0 4px;
@@ -809,14 +826,14 @@ margin-right: auto;
 
 /* ===== PRICING ===== */
 .pricing{
-  background:var(--bg-soft);
+  background:var(--bg);
+  margin-bottom: 10%;
 
 }
 .price-card{
   max-width:560px;
   margin:0 auto;
   background-color: var(--cream);
-  border:1px solid var(--gold);
   border-radius:30px;
 max-width: 90%;  text-align:center;
   position:relative;
