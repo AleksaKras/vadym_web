@@ -395,6 +395,10 @@ margin-right: auto;
 
   }
 
+  .forwhom p{
+    padding-top: 4%;
+    font-size: clamp(16px, 12vw, 18px);
+  }
   .speech p {
     font-size: clamp( 16px, 12vw, 20px);
     font-family: Gilroy;
