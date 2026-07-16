@@ -219,9 +219,9 @@ section{
 .hero-photo-col::after{
   content:'';
   position:absolute;inset:0;
-  background:linear-gradient(90deg, transparent 65%, var(--bg) 100%),
+  background:linear-gradient(90deg, transparent 45%, var(--bg) 100%),
              linear-gradient(0deg, var(--bg) 0%, transparent 20%),
-             linear-gradient(270deg, transparent 65%, var(--bg) 100%);
+             linear-gradient(270deg, transparent 45%, var(--bg) 100%);
 }
 .hero-photo-col::before{
   content:'';
@@ -892,9 +892,9 @@ max-width: 90%;  text-align:center;
   background:none;
   border:none;
   color:var(--cream);
-  font-family:'Inter',sans-serif;
+  font-family:'Gilroy',sans-serif;
   font-size:18px;
-  font-weight:500;
+  font-weight:900;
   text-align:left;
   padding:26px 0;
   cursor:pointer;
