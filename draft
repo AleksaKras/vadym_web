@@ -210,3 +210,53 @@ accordeon with ++
 
   
 </section>
+
+
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="head" style="text-align:center;max-width:600px;margin:0 auto 60px;">
+      <span class="eyebrow">Відгуки</span>
+      <h2 style="font-size:clamp(32px,4.5vw,48px);">Що кажуть учасники</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <span class="quote-mark">"</span>
+        <p>Вперше за багато років зрозуміла, чому я постійно «зливаю» гроші в нуль. Через місяць після тренінгу дохід зріс на 30%.</p>
+        <div class="testi-person">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="">
+          <div>
+            <div class="name">Олена К.</div>
+            <div class="role">Підприємниця</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <span class="quote-mark">"</span>
+        <p>Дуже структуровано та практично. Жодної «езотерики» — лише робота з реальними переконаннями та чіткий план.</p>
+        <div class="testi-person">
+          <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=200&auto=format&fit=crop" alt="">
+          <div>
+            <div class="name">Андрій П.</div>
+            <div class="role">Керівник відділу</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <span class="quote-mark">"</span>
+        <p>Нарешті перестала боятись великих сум. Те, що блокувало мене роками, розблокувалось буквально за два дні.</p>
+        <div class="testi-person">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop" alt="">
+          <div>
+            <div class="name">Марина С.</div>
+            <div class="role">Фрилансерка</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <span style="font-family: Gilroy-bold;color: var(--gold);">  результат,</span>
